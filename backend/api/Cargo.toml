@@ -12,3 +12,7 @@ log = "0.4.14"
 lambda_runtime = "0.4"
 format = "0.2.4"
 # tracing-subscriber = { version = "0.3.9", features = ["env-filter"] }
+
+[[bin]]
+name = "bootstrap"
+path = "src/main.rs"
