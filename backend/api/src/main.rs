@@ -13,5 +13,5 @@ async fn main() -> Result<(), lambda_runtime::Error> {
 
 async fn handler(req: model::Request, _ctx: Context) -> model::Response {
 
-    Ok(model::SuccessResponse{body: "Testaroonie".to_string()})
+    Ok(model::SuccessResponse{body: "Wit a success!".to_string()})
 }
